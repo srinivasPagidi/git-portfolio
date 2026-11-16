@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: inline-block;
+    background-color: teal;
+    padding: 20px 0px;
+    position: sticky; top: 0;
+}
+header .headerClass{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .headerClass h1{
+    color: #fff;
+}
+
+/* header .headerClass nav{
+    background-color: wheat;
+} */
+
+header .headerClass nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .headerClass nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px 5px;
+}
+
+header .headerClass nav ul li a:hover{
+    background-color: yellow;
+    color: #333;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    /* margin-top: 30px; */
+    background-color: #b9c9d8;
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    gap: 2rem;
+    padding: 5% 5%;
+}
+
+/* .innerContainer{
+   
+} */
+
+.container .portfolio{
+    width: 100%;
+    /* background-color: #b8c5ce; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 5% 0%; */
+}
+.container .portfolio h4{
+    padding: 20px 0px;
+}
+
+.container .portfolio h1{
+    padding: 20px 0px;
+}
+
+.container .portfolio h3{
+    padding: 20px 0px;
+}
+.container .portfolio p{
+    padding: 20px 20px;
+    line-height: 25px;
+
+}
+
+.container .portfolio .portfolio-buttons button{
+    background-color: teal;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+.container .profile-photo img{
+    width: 100%;
+    border-radius: 100%;
+    border: #000 solid 5px;
+}
+
+.about-container{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #b9c9d8;
+    padding: 5% 5%;
+}
+
+.about-container h1, h2, p{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.about-container h1{
+    color: teal;
+    font-size: 40px;
+}
+
+.about-container h2{
+    color: teal;
+    font-size: 30px;
+}
+
+.about-container p{
+    line-height: 25px;
+    font-size: 16px;
+}
